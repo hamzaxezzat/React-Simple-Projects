@@ -1,17 +1,21 @@
 import React from "react";
-export default function Body() {
+import style from "./components.module.css";
+import logoReact from "../images/logo-react.svg";
+
+export default function Main() {
     return (
-        <section className="information">
+        <main className={style.mainSection}>
+            <img src={logoReact} alt="dsadsa" />
             <h1>Fun facts about React</h1>
-            <ol>
+            <ul>
                 <li>Was first released in 2013</li>
                 <li>Was originally created by Jordan Walke</li>
                 <li>Has well over 100K stars on GitHub</li>
                 <li>Is maintained by Facebook</li>
                 <li>
-                    Powers thousands of enterprise apps, including mobile apps{" "}
+                    Powers thousands of enterprise apps, including mobile apps
                 </li>
-            </ol>
-        </section>
+            </ul>
+        </main>
     );
 }
