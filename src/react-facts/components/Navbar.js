@@ -1,11 +1,12 @@
 import React from "react";
 import logo from "../images/logo.svg";
-import style from "./components.module.css";
+// import style from "./components.module.css";
+import "../style.css";
 
 export default function Navbar() {
     return (
-        <nav className={style.navbar}>
-            <div className={style.logoSection}>
+        <nav className="navbar">
+            <div className="logoSection">
                 <img src={logo} reactLogo alt="" />
                 <h3>ReactFacts</h3>
             </div>

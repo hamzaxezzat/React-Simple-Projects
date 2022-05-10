@@ -1,0 +1,96 @@
+/* Global */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #23252c;
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+/* Start mainContainer */
+.mainContainer {
+    width: 300px;
+    height: 700px;
+    background-color: #1a1b21;
+    margin: 80px auto;
+    text-align: center;
+    border-radius: 10px;
+}
+/* End mainContainer */
+/* Start Info */
+.infoSection {
+}
+.infoSection img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    max-height: 300px;
+    object-fit: cover;
+}
+.infoSection h2 {
+    margin-top: 15px;
+    font-weight: 600;
+}
+.infoSection h5 {
+    font-weight: 400;
+    color: #f3bf99;
+}
+.infoSection small {
+    font-size: xx-small;
+}
+
+.infoButtons button {
+    border: none;
+    padding: 8px 25px;
+    margin: 10px 8px;
+    border-radius: 6px;
+    font-size: 12px;
+}
+.infoButtons #linkedinButton {
+    background-color: #5093e2 !important;
+    color: #fff;
+}
+.infoButtons #emailButton {
+    background: #fff;
+}
+/* End Info */
+/* Start Information */
+.informationSection {
+}
+.informationSection .information {
+    margin: 25px;
+    text-align: left;
+}
+.informationSection h4 {
+    margin-bottom: 5px;
+}
+.informationSection p {
+    color: #c9c9c9;
+    font-size: 10px;
+    line-height: 1.5;
+    font-weight: 300;
+}
+/* End Information */
+
+/* Start Footer */
+footer {
+    background-color: #161619;
+    border-radius: 0 0 10px 10px;
+    position: relative;
+    bottom: 0;
+}
+.iconlist {
+    list-style: none;
+    display: inline-block;
+}
+.iconlist > li {
+    display: inline-block;
+}
+
+.iconlist .icon {
+    /* background-color: #5093e2; */
+    margin: 8px;
+    color: #918e9b;
+}
+/* End Footer */
