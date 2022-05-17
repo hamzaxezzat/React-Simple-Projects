@@ -1,12 +1,17 @@
-import { computeHeadingLevel } from "@testing-library/react";
 import React from "react";
-import ReactFeatures from "./ReactFacts";
+import Navbar from "./components/Navbar";
+import Main from "./components/Main";
 import "./stylel.css";
+
+import "./react-facts/style.css";
 
 export default function App() {
     return (
         <div className=" AppContainer">
-            <ReactFeatures />
+            <div className="container mainContainer">
+                <Navbar />
+                <Main />
+            </div>
         </div>
     );
 }
