@@ -4,20 +4,41 @@
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
+body {
+    background-color: #24252c;
+}
+:root {
+    --color-primary: #00abca;
+    --color-dark-1: #0e1017;
+    --color-dark-2: #161619;
+    --color-dark-3: #24252c;
+    --color-white: white;
+}
+.light-mode {
+    /* --color-primary: #00ABCA */
+    --color-dark-1: #ffffff;
+    --color-dark-2: #ffffff;
+    --color-dark-3: #ffffff;
+    --color-white: black;
+}
 .container {
     width: 800px;
     height: 600px;
     /* margin: 70px; */
-    background: #1a1b21;
+    background: var(--color-dark-1);
+    /* margin-top: 100px; */
+    margin: 150px auto;
 }
 
 /* ==================== Navbar Section ==================== */
 .navbar {
     display: flex;
-    background: #161619;
+    background: var(--color-dark-2);
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
 }
 .logoSection {
     display: flex;
@@ -27,21 +48,21 @@
 .logoSection h3 {
     display: inline-block;
     margin: 0;
-    color: white;
+    color: var(--color-white);
 }
 .logoSection img {
     width: 50px;
 }
 .navbar h4 {
     display: flex;
-    color: #fff;
+    color: var(--color-white);
     align-items: center;
 }
 
 /* ==================== Main Section ==================== */
 .mainSection {
     margin-left: 80px;
-    color: white;
+    color: var(--color-white);
     /* background-color: black; */
     position: relative;
     text-align: left;
@@ -66,7 +87,7 @@
 }
 .mainSection ul li::before {
     content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
-    color: rgb(0, 251, 255); /* Change the color */
+    color: var(--color-primary); /* Change the color */
     font-weight: 900; /* If you want it to be bold */
     display: inline-block; /*Needed to add space between the bullet and the text*/
     width: 1em; /* Also needed for space (tweak if needed) */
@@ -81,21 +102,21 @@
 .toggle-mode-container span {
     font-size: 11px;
     margin: 5px;
-    color: aliceblue;
+    color: var(--color-white);
 }
 .toggle-mode-holder {
     width: 40px;
     height: 20px;
-    background-color: #fff;
+    background-color: var(--color-white);
     border-radius: 10px;
 }
 .toggle-mode-circle {
     width: 14px;
     height: 14px;
-    background-color: #161619;
+    background-color: var(--color-dark-2);
     border-radius: 50%;
     margin: 3px 4px;
 }
-.circle-mode-dark {
+.dark {
     float: right;
 }

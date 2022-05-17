@@ -1,12 +1,9 @@
 import React from "react";
-// import style from "./components.module.css";
-import logoReact from "../images/logobg.png";
 import "../style.css";
 export default function Main() {
-    const [dark, setDark] = React.useState(false);
     return (
         <main className="mainSection">
-            <img src={logoReact} alt="dsadsa" />
+            <img src="./images/logobg.png" alt="dsadsa" />
             <h1>Fun facts about React</h1>
             <ul>
                 <li>Was first released in 2013</li>
