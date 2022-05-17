@@ -11,6 +11,13 @@ export default function Navbar() {
                 <h3>ReactFacts</h3>
             </div>
             <h4> React Course Project - 1</h4>
+            <div className="toggle-mode-container">
+                <span>Light</span>
+                <div className="toggle-mode-holder">
+                    <div className="toggle-mode-circle circle-mode-dark"></div>
+                </div>
+                <span>Dark</span>
+            </div>
         </nav>
     );
 }

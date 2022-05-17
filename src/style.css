@@ -16,6 +16,7 @@
     display: flex;
     background: #161619;
     justify-content: space-between;
+    align-items: center;
     padding: 20px;
 }
 .logoSection {
@@ -70,4 +71,31 @@
     display: inline-block; /*Needed to add space between the bullet and the text*/
     width: 1em; /* Also needed for space (tweak if needed) */
     margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+/* Toggle Dark Mode */
+.toggle-mode-container {
+    display: flex;
+    align-items: center;
+}
+.toggle-mode-container span {
+    font-size: 11px;
+    margin: 5px;
+    color: aliceblue;
+}
+.toggle-mode-holder {
+    width: 40px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.toggle-mode-circle {
+    width: 14px;
+    height: 14px;
+    background-color: #161619;
+    border-radius: 50%;
+    margin: 3px 4px;
+}
+.circle-mode-dark {
+    float: right;
 }

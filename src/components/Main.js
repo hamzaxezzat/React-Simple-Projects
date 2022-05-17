@@ -3,6 +3,7 @@ import React from "react";
 import logoReact from "../images/logobg.png";
 import "../style.css";
 export default function Main() {
+    const [dark, setDark] = React.useState(false);
     return (
         <main className="mainSection">
             <img src={logoReact} alt="dsadsa" />
