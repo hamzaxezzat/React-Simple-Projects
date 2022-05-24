@@ -25,7 +25,7 @@ body {
     width: 800px;
     height: 600px;
     /* margin: 70px; */
-    background: var(--color-dark-1);
+    background: var(--color-dark-1); 
     /* margin-top: 100px; */
     margin: 150px auto;
 }
